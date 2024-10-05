@@ -6,6 +6,7 @@ import React from "react";
 // Components
 import LeftSideBar from "../components/LeftSideBar";
 import ScheduleContainer from '../components/ScheduleContainer';
+import Header from '../components/Header';
 
 /*
     --------------- TITLE ------------------
@@ -17,7 +18,7 @@ const Home = () => {
     return (
         <div id='HOME-PD' className='container'>
             <div id='HOME-TitleRow' className='row'>
-                <p>TITLE</p>
+                <Header/>
             </div>
             <div id='HOME-BodyRow' className='row'>
                 <div id='HOME-LSB-PD' className='col'>

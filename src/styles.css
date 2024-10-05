@@ -20,35 +20,35 @@ html, body, #root {
 
 /*The div that is the top row of the entire home page*/
 #HOME-TitleRow {
-    height: 5vh;
+    max-height: 20vh;
 }
 
 /*The div that is the middle row of the entire home page*/
 #HOME-BodyRow {
     display: flex;
     flex-direction: row;
-    max-height: 90vh;
+    max-height: 85vh;
 }
 
 /*The parent div of the left side bar component within home*/
 #HOME-LSB-PD {
     display: flex;
     flex-direction: column;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
 }
 
 /*The the col div that holds the content (middle col of Body row)*/
 #HOME-CONTENT-PD {
-    max-height: 90vh;
+    max-height: 85vh;
 }
 
 /*The the col div that holds the content (right col of Body row)*/
 #HOME-RSB-PD {
     display: flex;
     flex-direction: column;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
 }
 
 /* The div containing the components within Left Side Bar*/
@@ -85,7 +85,7 @@ html, body, #root {
 }
 
 #SC-FEED {
-    max-height: 90vh;
+    max-height: 80vh;
     overflow-y: scroll;
 }
 
